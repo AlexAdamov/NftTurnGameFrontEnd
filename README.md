@@ -1,13 +1,12 @@
-## Running React on Repl.it
+# NFT Turn based game - Smart Contract
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+This a front-end site for a turn based game where the goal is to beat a Boss called Nagativo by sending him good vibes :-). Users mint an NFT player Character from 9 character types then proceed to the Arena to challenge Negativo. Each hit by the playing character is reciprocated by a hit from the Boss. A player has the ability to heal other players who may have created a playing character as well.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+The game is currently connecting to an already deployed contract on the Ethereum Rinkeby blockchain. 
+If you wish to use it yourself, you can change the contract adress in the file src/constants.jsx. Remeber to copy and past the ABI file in src/utils/MyEpicGame.json
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+# Reference and features added
+The project is based on a tutorial made by Buildspace https://buildspace.so/. I added the following features:
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
-
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the `.replit` file.
+* Ability to view other players
+* Ability to heal other players
